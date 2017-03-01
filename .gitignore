@@ -6,6 +6,7 @@ csgo/*
 !csgo/cfg
 csgo/cfg/*
 !csgo/cfg/autoexec.cfg
+!csgo/cfg/legit.cfg
 
 !csgo/resource
 csgo/resource/*
