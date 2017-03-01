@@ -1,0 +1,193 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"<font color='#c600f0'>~<font color='#c600f0'>~<font color='#0080ff'>~<font color='#ffff00'>~<font color='#00ffff'>~<font color='#c600f0'>~"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"go"
+				{
+					"hotkey"	"1"
+					"label"	"<font color='#c600f0'>GOGOGO"
+					"cmd"	"go"
+				}
+				
+				"fallback"
+				{
+					"hotkey"	"2"
+					"label"	"<font color='#ff0000'>fall back!"
+					"cmd"	"fallback"
+				}
+				
+				"sticktog"
+				{
+					"hotkey"	"3"
+					"label"	"<font color='#ffff00'>stick 2gether"
+					"cmd"	"sticktog"
+				}
+				
+				"holdpos"
+				{
+					"hotkey"	"4"
+					"label"	"<font color='#0080ff'>Hold pos"
+					"cmd"	"holdpos"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"5"
+					"label"	"followme"
+					"cmd"	"followme"
+				}
+
+				"coverme"
+				{
+					"hotkey"	"6"
+					"label"	"<font color='#00ffff'>coverme"
+					"cmd"	"coverme"
+				}
+
+				"regroup"
+				{
+					"hotkey"	"7"
+					"label"	"#SFUI_Radio_Regroup"
+					"cmd"	"regroup"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"<font color='#c600f0'>~<font color='#c600f0'>~<font color='#0080ff'>~<font color='#ffff00'>~<font color='#00ffff'>~<font color='#c600f0'>~"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"<font color='#0080ff'>negatoru"
+					"cmd"	"negative"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"<font color='#c600f0'>yay~"
+					"cmd"	"cheer"
+				}
+				
+				"compliment"
+				{
+					"hotkey"	"4"
+					"label"	"<font color='#ff0000'>nice hair"
+					"cmd"	"compliment"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"5"
+					"label"	"ty"
+					"cmd"	"thanks"
+				}
+
+				"enemydown"
+				{
+					"hotkey"	"6"
+					"label"	"<font color='#00ffff'>tango DOWN"
+					"cmd"	"enemydown"
+				}
+
+				"reportingin"
+				{
+					"hotkey"	"7"
+					"label"	"<font color='#ffff00'>ReportingInt"
+					"cmd"	"reportingin"
+				}
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"<font color='#c600f0'>~<font color='#c600f0'>~<font color='#0080ff'>~<font color='#ffff00'>~<font color='#00ffff'>~<font color='#c600f0'>~"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"enemyspot"
+				{
+					"hotkey"	"1"
+					"label"	"spottd"
+					"cmd"	"enemyspot"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"2"
+					"label"	"<font color='#0080ff'>backup"
+					"cmd"	"needbackup"
+				}
+				
+				"takepoint"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Take_Point"
+					"cmd"	"takepoint"
+				}
+				
+				"sectorclear"
+				{
+					"hotkey"	"4"
+					"label"	"<font color='#ff0000'>clear / MUTE FUCKERS"
+					"cmd"	"sectorclear;mutefuckers1"
+				}
+				
+				"inposition"
+				{
+					"hotkey"	"5"
+					"label"	"inPosition / UNMUTE FUCKERS"
+					"cmd"	"inposition;mutefuckers2"
+				}
+
+				"takingfire"
+				{
+					"hotkey"	"6"
+					"label"	"<font color='#ffff00'>HELP! / SPINBOT ON"
+					"cmd"	"takingfire; lolspinbot2"
+				}
+
+				"report"
+				{
+					"hotkey"	"7"
+					"label"	"<font color='#00ffff'>reportin / SPINBOT OFF"
+					"cmd"	"report; lolspinbot1"
+				}
+
+				"getout"
+				{
+					"hotkey"	"8"
+					"label"	"<font color='#c600f0'>there was supposed to be an earthshattering KABOOM"
+					"cmd"	"getout"
+				}			
+			}
+		}
+	}
+}
