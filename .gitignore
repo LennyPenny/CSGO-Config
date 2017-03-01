@@ -1,0 +1,14 @@
+*
+!.gitignore
+!csgo
+csgo/*
+
+!csgo/cfg
+csgo/cfg/*
+!csgo/cfg/autoexec.cfg
+
+!csgo/resource
+csgo/resource/*
+!csgo/resource/ui
+csgo/resource/ui/*
+!csgo/resource/ui/radiopanel.txt
