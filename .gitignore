@@ -7,6 +7,8 @@ csgo/*
 csgo/cfg/*
 !csgo/cfg/autoexec.cfg
 !csgo/cfg/legit.cfg
+!csgo/cfg/sound.cfg
+!csgo/cfg/fps_tweaks.cfg
 
 !csgo/resource
 csgo/resource/*
