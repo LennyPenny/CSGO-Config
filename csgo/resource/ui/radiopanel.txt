@@ -17,43 +17,43 @@
 				"go"
 				{
 					"hotkey"	"1"
-					"label"	"<font color='#c600f0'>GOGOGO"
-					"cmd"	"go"
+					"label"	"<font color='#c600f0'>GOGOGO buy armor"
+					"cmd"	"go;buy_armor;"
 				}
 
 				"fallback"
 				{
 					"hotkey"	"2"
-					"label"	"<font color='#ff0000'>fall back!"
-					"cmd"	"fallback"
+					"label"	"<font color='#ff0000'>fall back! main wep"
+					"cmd"	"fallback;buy_main_wep;"
 				}
 
 				"sticktog"
 				{
 					"hotkey"	"3"
-					"label"	"<font color='#ffff00'>stick 2gether"
-					"cmd"	"sticktog"
+					"label"	"<font color='#ffff00'>stick 2gether; buy flash smoke"
+					"cmd"	"sticktog;buy_flashsmoke;"
 				}
 
 				"holdpos"
 				{
 					"hotkey"	"4"
-					"label"	"<font color='#0080ff'>Hold pos"
-					"cmd"	"holdpos"
+					"label"	"<font color='#0080ff'>Hold pos buy_he"
+					"cmd"	"holdpos;buy_he;"
 				}
 
 				"followme"
 				{
 					"hotkey"	"5"
-					"label"	"followme"
-					"cmd"	"followme"
+					"label"	"followme buy_fire"
+					"cmd"	"followme;buy_fire;"
 				}
 
 				"coverme"
 				{
 					"hotkey"	"6"
-					"label"	"<font color='#00ffff'>coverme"
-					"cmd"	"coverme"
+					"label"	"<font color='#00ffff'>coverme buy_good_pistol"
+					"cmd"	"coverme;buy_good_pistol;"
 				}
 
 				"regroup"
